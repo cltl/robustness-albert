@@ -3,6 +3,8 @@
 This is the code for ["How Emotionally Stable is ALBERT? Testing Robustness with 
 Stochastic Weight Averaging on a Sentiment Analysis Task"](https://aclanthology.org/2021.eval4nlp-1.3/).
 
+Links to the models and other results will soon be released.
+
 ## setup. 
 To run the training and evaluation for this paper, please set up the environment: 
 ```bash 
@@ -33,7 +35,7 @@ flake8 robustness-albert
 pytest -s tests/
 ```
 
-## notebooks.
+## notebooks (coming soon).
 `checklist_test_models.ipynb`: This notebook carries out the CheckList tests on 
 all the random seeds. 
 
