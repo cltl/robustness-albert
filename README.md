@@ -36,7 +36,7 @@ pytest -s tests/
 ```
 
 ## notebooks.
-`checklist_test_models.ipynb`: This notebook carries out the CheckList tests on 
+`test_models_checklist.ipynb`: This notebook carries out the CheckList tests on 
 all the random seeds. 
 
 `dev_set_results.ipynb`: This notebook loads the results of the different random seeds
@@ -52,10 +52,10 @@ all the random seeds.
  CheckList tests for all random seeds. It plots the error rates and overlap ratios and 
  calculates the Fleiss' Kappa agreement.
  
- `sst2_test_labels.ipynb`: As the SST-2 dataset in _HuggingFace_ does not come with the 
+ `extract_test_labels_sst2.ipynb`: As the SST-2 dataset in _HuggingFace_ does not come with the 
  test labels, this notebook is used to extract them using the [original SST-2 data from
  GLUE](https://gluebenchmark.com/tasks). 
  Labels can be found in `assets/sst2_test_labels.json`
  
- `checklist_sst2.ipynb`: This notebook creates the CheckList test suite that we use for 
+ `create_checklist_tests_sst2.ipynb`: This notebook creates the CheckList test suite that we use for 
  the results. Resulting test suite can be found in `assets/testset_19_07_21.pkl`.
